@@ -1,9 +1,8 @@
 import csv
 from openai import OpenAI
 
-client = OpenAI(api_key='ur-api-key')
-
 # Replace 'your_api_key_here' with your actual OpenAI API key
+client = OpenAI(api_key='ur-api-key')
 
 EMOTIONS = [
     "Happiness",
@@ -15,6 +14,7 @@ EMOTIONS = [
     "Contempt",
     "Embarrassment"
 ]
+
 NUM_UTTERANCES_PER_EMOTION = 10
 
 
